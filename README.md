@@ -30,15 +30,18 @@ INDIAN_ARMY_EDA/
 ├── Data/
 │   └── Raw Data/
 │       └── cleaned_globalterrorism.csv      # Cleaned source data
+├── Data-link/
+│   └── Link.txt                             # Google Drive link for large datasets
 ├── notebooks/
-│   ├── data_cleaning.ipynb                 # Data preprocessing steps
-│   └── eda_indian_army.ipynb               # Main EDA with visualizations
+│   ├── data_cleaning.ipynb                  # Data preprocessing steps
+│   └── eda_indian_army.ipynb                # Main EDA with visualizations
 ├── output/
-│   ├── attack_type_distribution.png        # Pie chart of attack types
-│   ├── yearly_attacks.png                  # Yearly attack trend
-│   └── ...                                 # Other exported PNGs
-├── README.md                               # Project overview (this file)
-└── requirements.txt                        # Python dependencies
+│   ├── attack_type_distribution.png         # Pie chart of attack types
+│   ├── yearly_attacks.png                   # Yearly attack trend
+│   └── ...                                  # Other exported PNGs and HTML files
+├── README.md                                # Project overview (this file)
+└── requirements.txt                         # Python dependencies
+
 ```
 ## 📂 Data Access
 The dataset files (raw and cleaned) are too large to host on GitHub. Download them from Google Drive:
